@@ -27,4 +27,51 @@ A simple web-based ride booking system prototype designed for small city testing
 ---
 
 ## 📦 Project Structure
+mini-ride-booking-system/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── Header.js
+│ │ ├── Footer.js
+│ │ ├── Login.js
+│ │ ├── RideRequestForm.js
+│ │ ├── RideStatus.js
+│ │ └── RideHistory.js
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
+├── package.json
 
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+Open http://localhost:3000 in your browser to use the app.
+
+📌 Assumptions
+No real authentication, GPS, driver matching, or backend is implemented
+
+Data is only stored in localStorage, so clearing browser data resets history
+
+All status transitions are simulated and happen automatically
+
+💡 Future Enhancements (Optional Ideas)
+Add a real backend using Node.js/Express and MongoDB
+
+Replace dummy login with Firebase or JWT auth
+
+Add driver/user roles with separate views
+
+Improve mobile responsiveness and design polish
+
+📄 License
+This project is for educational and demonstration purposes only.
