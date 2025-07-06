@@ -4,6 +4,9 @@ import Login from './components/Login';
 import RideRequestForm from './components/RideRequestForm';
 import RideStatus from './components/RideStatus';
 import RideHistory from './components/RideHistory';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 
 function App() {
   const [user, setUser] = useState(null);
@@ -64,6 +67,8 @@ function App() {
 
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial' }}>
+      <Header />
+      <p style={{ textAlign: 'center' }}>A simple ride hailing app</p>
       <h2>Welcome, {user}!</h2>
       <button onClick={handleLogout}>Logout</button>
       <div style={{ margin: '20px 0' }}>
@@ -75,6 +80,8 @@ function App() {
       {currentView === 'ride' && <RideRequestForm onRequestRide={handleRequestRide} />}
       {currentView === 'status' && <RideStatus ride={currentRide} />}
       {currentView === 'history' && <RideHistory rides={rideHistory} />}
+
+      <Footer />
     </div>
   );
 }
