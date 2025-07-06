@@ -10,7 +10,7 @@ function Footer() {
       borderTop: '1px solid #ccc',
       fontSize: '14px'
     }}>
-      <p>© {new Date().getFullYear()} Ride Hailing Lite. All rights reserved.</p>
+      <p>© {new Date().getFullYear()} Mini Ride Booking System. All rights reserved.</p>
     </footer>
   );
 }

@@ -15,7 +15,6 @@ function Login({ onLogin }) {
   return (
     <div style={{ marginTop: '100px', textAlign: 'center' }}>
       <Header />
-      <h2>Ride Hailing Lite</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

@@ -68,7 +68,7 @@ function App() {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial' }}>
       <Header />
-      <p style={{ textAlign: 'center' }}>A simple ride hailing app</p>
+      <p style={{ textAlign: 'center' }}>A simple ride booking app</p>
       <h2>Welcome, {user}!</h2>
       <button onClick={handleLogout}>Logout</button>
       <div style={{ margin: '20px 0' }}>

@@ -9,7 +9,7 @@ function Header() {
       textAlign: 'center',
       borderBottom: '2px solid #2980b9'
     }}>
-      <h1>🚕 Ride Hailing Lite</h1>
+      <h1>🚕 Mini Ride Booking System</h1>
     </header>
   );
 }
